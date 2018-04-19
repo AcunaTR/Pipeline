@@ -9,5 +9,5 @@ CURDIR=`pwd`
 
 docker run --rm \
            -v "${CURDIR}/:/build" \
-           --workdir /build/AcunaCode \
+           --workdir /build/Code/AcunaCode \
            maven:3.5.2-jdk-8 mvn compile
